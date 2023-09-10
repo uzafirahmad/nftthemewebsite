@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top{
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#background_text{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 56px;
+    width: 500px;
+    top: 30%;
+    left: 10%;
+}
+
+#background_picture_container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#background_picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#navbar{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+
+#floating_call_button{
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 56px;
+    height: 56px; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 0, 128);
+    position: fixed;
+    bottom: 4%;
+    right: 2.5%;
+    z-index: 2;
+}
+
+#call_icon{
+    font-size: 30px;
+    color: white;
+}
+
+#japanese_symbol{
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 35px;
+    color: white;
+}
+
+.span_navbar{
+    font-size: 16px;
+    color: white;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.span_navbar:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 183);
+}
+
+.blobdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: rgb(41,20,69);
+}
+
+.blobdiv2{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(50,24,84);
+}
+
+.blob_image{
+    width: 500px;
+    height: 500px;
+    margin: 0px 15px;
+}
+
+.blob_div_text_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 15px;
+}
+
+.blob_div_title{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.blob_div_text{
+    width: 500px;
+    color: white;
+    opacity: 0.8;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#footer{
+    background-color: rgb(50,24,84);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_section{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(55,33,103);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#footer_socials{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socials_icons{
+    font-size: 24px;
+    color: white;
+}
+
+.socials_buttons{
+    background-color: rgb(41,20,69);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+
+.socials_buttons:hover{
+    background-color: rgb(255, 0, 128);
+}
+
+#footer_buttons_container{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_buttons_div{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_buttons_highlight{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer_buttons_simple{
+    color: white;
+    opacity: 0.5;
+    margin: 5px 0px;
+    cursor: pointer;
+}
